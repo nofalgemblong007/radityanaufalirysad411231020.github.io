@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Determinan Matriks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Raditya Naufal Irsyad 411231020 Kalkulator Determinan Matriks </h1>
+
+        <div class="matrix-container">
+            <h2>Matriks 2x2</h2>
+            <div class="matrix">
+                <div class="row">
+                    <input type="text" id="a11-2x2">
+                    <input type="text" id="a12-2x2">
+                </div>
+                <div class="row">
+                    <input type="text" id="a21-2x2">
+                    <input type="text" id="a22-2x2">
+                </div>
+            </div>
+            <button onclick="calculate2x2()">Hitung Determinan 2x2</button>
+            <p id="result-2x2"></p>
+        </div>
+
+        <div class="matrix-container">
+            <h2>Matriks 3x3</h2>
+            <div class="matrix">
+                <div class="row">
+                    <input type="text" id="a11">
+                    <input type="text" id="a12">
+                    <input type="text" id="a13">
+                </div>
+                <div class="row">
+                    <input type="text" id="a21">
+                    <input type="text" id="a22">
+                    <input type="text" id="a23">
+                </div>
+                <div class="row">
+                    <input type="text" id="a31">
+                    <input type="text" id="a32">
+                    <input type="text" id="a33">
+                </div>
+            </div>
+            <button onclick="calculate3x3()">Hitung Determinan 3x3</button>
+            <p id="result-3x3"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
